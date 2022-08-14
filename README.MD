@@ -19,6 +19,7 @@ Anywhere in your code, just include the class ArrFlatten in the use section and 
 ```
 use Ashvedov\ArrayFlatten\ArrFlatten;
 $test = new ArrFlatten(array: [[1, 2, [3, 5], [[4, 3], 4], 10], [1, 2, 3, 5, 4, 3, 4, 10]]);
+var_dump($test->flattenArray());
 ```
 
 #### Test
