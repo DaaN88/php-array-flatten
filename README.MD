@@ -21,20 +21,3 @@ use Ashvedov\ArrayFlatten\ArrFlatten;
 $test = new ArrFlatten(array: [[1, 2, [3, 5], [[4, 3], 4], 10], [1, 2, 3, 5, 4, 3, 4, 10]]);
 var_dump($test->flattenArray());
 ```
-
-#### Test
-You can also raise docker containers. Go to the package directory and execute:
-```
-docker-compose build
-```
-```
-docker-compose -p 'custom-image-name' up -d 
-```
-If the containers have started, then open in the browser:
-```
-http://localhost:8006/
-```
-You can experiment with arrays in:
-```
-src/index.php
-```
